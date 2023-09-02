@@ -25,7 +25,7 @@ public class ConfigCar {
     Person person (Car car){
         Person p= new Person();
         p.setName("Cameron");
-        p.setCar(car());// auto wiring since I have it in the argument
+        p.setCar(car());// auto wiring since I have it in the argument as a parameter
         return p;
     }
 }
